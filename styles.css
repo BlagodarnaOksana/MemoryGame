@@ -1,0 +1,70 @@
+body {
+  background-image: url(img/background.jpg);
+  background-size: cover;
+  width: 100%;
+}
+
+h1 {
+  width: 200px;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  position: absolute;
+  top: -10px;
+}
+
+#start {
+  margin-top: 40px;
+  font-size: 32px;
+  font-weight: 700;
+  border: solid 1px black;
+  width: 200px;
+  height: 40px;
+  background: linear-gradient(rgb(18, 58, 128) 0%, rgb(142, 225, 216) 50%, rgb(0, 255, 255) 50%, rgb(48, 48, 147) 100%);
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgb(80, 92, 106);
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+
+#txtScore {
+  font-size: 24px;
+  color: black;
+  width: 490px;
+  margin-left: auto;
+  margin-right: auto;
+  visibility: hidden;
+}
+
+#grid {
+  width: 630px;
+  height: 450px;
+  display: flex;
+  flex-wrap: wrap;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#grid>img {
+  margin-left: 3px;
+  border: solid 1px black;
+}
+
+#popup {
+  visibility: hidden;
+  width: 160px;
+  background-color: azure;
+  color: black;
+  font-size: 16px;
+  text-align: center;
+  border: solid 1px blue;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  top: 90px;
+  left: 50%;
+  margin-left: -70px;
+}
